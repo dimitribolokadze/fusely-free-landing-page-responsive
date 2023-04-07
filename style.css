@@ -337,7 +337,6 @@ footer span {
     transform: unset;
   }
 }
-
 @media (max-width: 660px) {
   .companies img {
     margin-left: 10px;

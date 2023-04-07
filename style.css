@@ -332,11 +332,11 @@ footer span {
   .footer-details {
     flex-wrap: wrap;
   }
-
   .plan-item:hover {
     transform: unset;
   }
 }
+
 @media (max-width: 660px) {
   .companies img {
     margin-left: 10px;

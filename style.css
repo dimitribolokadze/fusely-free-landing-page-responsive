@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 60px;
+  color: rgba(47, 46, 65, 1);
+}
+h2 {
+  font-size: 50px;
+  color: rgba(47, 46, 65, 1);
+  margin: 30px 0;
+}
+h3 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 346px;
+}
+h4 {
+  color: rgba(47, 46, 65, 1);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+}
+img {
+  cursor: pointer;
+}
+ul {
+  display: flex;
+}
+
+ul li:not(:first-child) {
+  margin-left: 36px;
+}
+ul li a {
+  color: rgba(152, 147, 163, 1);
+}
+ul li a:hover {
+  border-bottom: 4px solid rgba(158, 153, 255, 1);
+  color: rgba(47, 46, 65, 1);
+  padding-bottom: 10px;
+}
+
+button {
+  all: unset;
+  border-radius: 2px;
+}
+
+.logIn-btn {
+  border: 1px solid rgba(108, 99, 255, 1);
+  color: rgba(108, 99, 255, 1);
+  font-size: 14px;
+  padding: 16px 16px;
+  cursor: pointer;
+}
+
+.blue-btn {
+  background: rgba(108, 99, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+main {
+  padding: 0 130px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-content img {
+  margin-left: 50px;
+}
+.main-content h1 {
+  font-size: 86px !important;
+}
+.main-content p {
+  margin: 30px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(152, 147, 163, 1);
+}
+
+.companies {
+  padding-top: 50px;
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.companies img {
+  margin-left: 100px;
+}
+
+.second-content {
+  display: flex;
+  margin-top: 220px;
+}
+.second-content img {
+  margin-right: 180px;
+}
+.second-content p {
+  color: rgba(152, 147, 163, 1);
+  font-weight: 400;
+  margin: 24px 0;
+}
+.second-content a {
+  font-size: 18px;
+  color: rgba(47, 46, 65, 1);
+  background-color: rgba(197, 194, 255, 0.5);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.plan-content {
+  display: grid;
+  justify-content: center;
+}
+.plan {
+  display: flex;
+  gap: 45px;
+}
+.plan-item {
+  padding: 46px 110px;
+  height: 421px;
+  background: rgba(236, 235, 255, 0.3);
+  border-radius: 2px;
+  color: rgba(113, 112, 130, 1);
+  transition: transform 0.2s ease-in;
+  border-radius: 2px;
+  margin-bottom: 175px;
+}
+.plan-item p {
+  font-weight: 400 !important;
+}
+.details {
+  display: grid;
+  row-gap: 14px;
+}
+.plan .blue-btn {
+  border: 1px solid rgba(108, 99, 255, 1);
+  color: rgba(108, 99, 255, 1);
+  background: none !important;
+  padding: 15px !important;
+  margin-top: 40px;
+}
+.plan-item .price {
+  display: flex;
+  align-items: center;
+}
+
+.plan-item:hover {
+  background-color: rgba(108, 99, 255, 1);
+  transform: scale(1.1);
+  color: rgba(255, 255, 255, 0.8) !important;
+  cursor: pointer;
+}
+.plan-item:hover h2 {
+  color: rgba(255, 255, 255, 1) !important;
+}
+.plan-item:hover button {
+  width: 186px !important;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.dark-container {
+  width: 900px;
+  height: 296px;
+  background: rgba(47, 46, 65, 1);
+  border-radius: 2px;
+  padding: 84px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  margin-top: 90px;
+  height: 598px;
+  background: rgba(236, 235, 255, 0.6);
+  position: relative;
+}
+.footer-details {
+  display: flex;
+  justify-content: center;
+  height: 598px;
+  align-items: center;
+  column-gap: 180px;
+}
+.product,
+.company,
+.support,
+.support,
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  height: 206px;
+}
+footer a {
+  color: rgba(113, 112, 130, 1);
+  font-weight: 400 !important;
+  margin-bottom: 8px;
+}
+footer .socials img {
+  background: rgba(255, 255, 255, 1);
+  padding: 8px 9px;
+  margin-right: 10px;
+}
+footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 80px 43px;
+}
+footer span {
+  color: rgba(152, 147, 163, 1);
+  font-weight: 400;
+  font-size: 12px;
+}
